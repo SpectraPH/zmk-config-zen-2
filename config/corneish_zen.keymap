@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
-    flavor = "tap-preferred";
     tapping-term-ms = <500>;
+    quick-tap-ms = <300>;
 };
 
 / {
