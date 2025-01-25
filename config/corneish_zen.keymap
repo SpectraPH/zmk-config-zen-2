@@ -58,6 +58,16 @@
             bindings = <&kp LCTRL>;
             key-positions = <40 41>;
         };
+
+        left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <4 5>;
+        };
+        
+        right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
