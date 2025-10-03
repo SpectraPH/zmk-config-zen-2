@@ -148,9 +148,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCLAMATION  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp KP_MULTIPLY  &kp AMPERSAND  &trans
+&trans  &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp KP_MULTIPLY  &kp AMPERSAND  &trans
 &trans  &kp QUESTION     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp UNDERSCORE    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS     &kp EQUAL        &kp CARET      &kp PIPE
-&trans  &kp AMPERSAND    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS    &kp UNDERSCORE   &kp TILDE      &kp BACKSLASH
+&trans  &kp AMPERSAND    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS    &kp UNDERSCORE   &kp TILDE      &kp BACKSLASH
                                        &trans        &trans        &trans            &trans                &trans                 &trans
             >;
         };
