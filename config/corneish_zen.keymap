@@ -103,7 +103,7 @@
         };
 
         cntl {
-            bindings = <&kp LCTRL>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <24 36>;
         };
     };
