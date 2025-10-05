@@ -42,21 +42,6 @@
             key-positions = <37 40>;
         };
 
-        option {
-            bindings = <&sk LEFT_ALT>;
-            key-positions = <36 41>;
-        };
-
-        gui {
-            bindings = <&kp LEFT_GUI>;
-            key-positions = <36 37>;
-        };
-
-        ctrl {
-            bindings = <&kp LCTRL>;
-            key-positions = <40 41>;
-        };
-
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <4 5>;
@@ -115,6 +100,11 @@
         percent {
             bindings = <&kp PERCENT>;
             key-positions = <31 32>;
+        };
+
+        cntl {
+            bindings = <&kp LCTRL>;
+            key-positions = <24 36>;
         };
     };
 
