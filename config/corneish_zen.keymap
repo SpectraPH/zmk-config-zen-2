@@ -16,6 +16,8 @@
 
 &sk { release-after-ms = <2000>; };
 
+&mt { flavor = "tap-preferred"; };
+
 / {
     chosen {
         zmk,matrix_transform = &default_transform;
@@ -138,10 +140,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans         &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp KP_MULTIPLY  &kp AMPERSAND  &trans
-&trans         &kp QUESTION     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS     &kp EQUAL        &kp CARET      &kp PIPE
-&kp LEFT_META  &kp AMPERSAND    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS    &kp UNDERSCORE   &kp TILDE      &kp BACKSLASH
-                                              &trans        &trans        &trans            &trans                &trans                 &trans
+&trans         &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN   &kp HASH   &kp DOLLAR     &trans
+&trans         &kp QUESTION     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp CARET  &kp AMPERSAND  &kp PIPE
+&kp LEFT_META  &kp AMPERSAND    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK  &kp EQUAL  &kp TILDE      &kp BACKSLASH
+                                              &trans        &trans        &trans          &trans                &trans                 &trans
             >;
         };
 
