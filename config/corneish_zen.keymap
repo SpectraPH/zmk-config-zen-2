@@ -39,11 +39,6 @@
     combos {
         compatible = "zmk,combos";
 
-        three {
-            bindings = <&mo 3>;
-            key-positions = <37 40>;
-        };
-
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <4 5>;
@@ -103,11 +98,6 @@
             bindings = <&kp PERCENT>;
             key-positions = <31 32>;
         };
-
-        cntl {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <24 36>;
-        };
     };
 
     keymap {
@@ -143,7 +133,7 @@
 &trans         &kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN   &kp HASH   &kp DOLLAR     &trans
 &trans         &kp QUESTION     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp CARET  &kp AMPERSAND  &kp PIPE
 &kp LEFT_META  &kp AMPERSAND    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK  &kp EQUAL  &kp TILDE      &kp BACKSLASH
-                                              &trans        &trans        &trans          &trans                &trans                 &trans
+                                              &trans        &trans        &trans          &trans                &mo 3                  &trans
             >;
         };
 
