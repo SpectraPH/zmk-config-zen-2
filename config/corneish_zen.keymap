@@ -14,7 +14,7 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
-&sk { release-after-ms = <2000>; };
+&mt { flavor = "tap-preferred"; };
 
 / {
     chosen {
@@ -25,15 +25,6 @@
 };
 
 / {
-    behaviors {
-        td0: td0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD0";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
